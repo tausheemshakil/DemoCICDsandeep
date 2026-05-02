@@ -31,3 +31,4 @@ D:\CoreWebAppAzure\src\corewebapp\obj\Debug\net8.0\refint\corewebapp.dll
 D:\CoreWebAppAzure\src\corewebapp\obj\Debug\net8.0\corewebapp.pdb
 D:\CoreWebAppAzure\src\corewebapp\obj\Debug\net8.0\corewebapp.genruntimeconfig.cache
 D:\CoreWebAppAzure\src\corewebapp\obj\Debug\net8.0\ref\corewebapp.dll
+D:\CoreWebAppAzure\src\corewebapp\obj\Debug\net8.0\corewebapp.sourcelink.json

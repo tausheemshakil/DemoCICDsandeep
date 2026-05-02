@@ -110,3 +110,4 @@ D:\CoreWebAppAzure\Test\corewebappTest\bin\Debug\net8.0\Swashbuckle.AspNetCore.S
 D:\CoreWebAppAzure\Test\corewebappTest\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\CoreWebAppAzure\Test\corewebappTest\bin\Debug\net8.0\corewebapp.dll
 D:\CoreWebAppAzure\Test\corewebappTest\bin\Debug\net8.0\corewebapp.pdb
+D:\CoreWebAppAzure\Test\corewebappTest\obj\Debug\net8.0\corewebappTest.sourcelink.json
