@@ -10,7 +10,7 @@ public class UnitTest1
     [Fact]  // Arrange, Act, Assert
     public void Test1()
     {   
-        var test = valController.Get(1);                            //Act
-        Assert.Equal("Tausheem", test);
+        var test1 = valController.Get(1);                            //Act
+        Assert.Equal("Tausheem", test1);
     }
 }
