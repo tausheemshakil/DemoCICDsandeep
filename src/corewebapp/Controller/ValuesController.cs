@@ -19,7 +19,7 @@ namespace corewebapp.Controller
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "Tausheem", "Shakil" };
+            return new string[] { "Alam", "Kham" };
         }
 
         // GET api/values/5
