@@ -20,16 +20,12 @@ steps:
 
 - task: NuGetCommand@2
   inputs:
-    #restoreSolution: '$(solution)'
-    command: 'restore'
-    restoreSolution: '**/*.sln'
+    restoreSolution: '$(solution)'
 
 - task: VSBuild@1
   inputs:
-    #solution: '$(solution)'
-    solution: '**/*.sln'
-    msbuildArgs: '/p:DeployOnBuild=true'
-    #msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:DesktopBuildPackageLocation="$(build.artifactStagingDirectory)\WebApp.zip" /p:DeployIisAppPath="Default Web Site"'
+    solution: '$(solution)'
+    msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:DesktopBuildPackageLocation="$(build.artifactStagingDirectory)\WebApp.zip" /p:DeployIisAppPath="Default Web Site"'
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
@@ -37,7 +33,6 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
-    
     
 - task: PublishBuildArtifacts@1
   inputs:
